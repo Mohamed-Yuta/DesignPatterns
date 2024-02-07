@@ -11,7 +11,7 @@ public class Employe {
     }
     public float calculerIGR(){
         float salaireBrutAnuel = salaireBrutMensuel*12;
-        float taux =tauxIns.calculerTaux(salaireBrutMensuel);
+        float taux =tauxIns.calculerTaux(salaireBrutAnuel);
         return salaireBrutAnuel*taux/100;
     }
     public float getSalaireNetMensuel(){

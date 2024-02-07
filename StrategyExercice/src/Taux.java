@@ -1,3 +1,3 @@
 public interface Taux {
-    public float calculerTaux(float salaireBrutMensuel);
+    public float calculerTaux(float salaireBrutAnuel);
 }
