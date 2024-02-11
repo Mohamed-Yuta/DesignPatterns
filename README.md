@@ -9,6 +9,7 @@ Welcome to the Design Patterns repository in Java! This repository contains impl
 
 Strategy Pattern: This pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. It lets the algorithm vary independently from the clients that use it .
 
+Observer Pattern: This pattern defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 
 # How to Use:
 
