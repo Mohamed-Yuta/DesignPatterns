@@ -1,3 +1,7 @@
+package model;
+
+import model.AccountStatus;
+
 public class BankAccount {
     private Long id ;
     private double balance ;
@@ -47,7 +51,7 @@ public class BankAccount {
 
     @Override
     public String toString() {
-        return "BankAccount{" +
+        return "model.BankAccount{" +
                 "id=" + id +
                 ", balance=" + balance +
                 ", currency='" + currency + '\'' +
