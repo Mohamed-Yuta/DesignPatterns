@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BankAccount.iml" filepath="$PROJECT_DIR$/BankAccount.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../jackson-core-2.15.2/untitled/untitled.iml" filepath="$PROJECT_DIR$/../../jackson-core-2.15.2/untitled/untitled.iml" />
     </modules>
   </component>
 </project>

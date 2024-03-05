@@ -56,7 +56,7 @@ public class AccoutRepositoryImpl implements AccoutRepository {
         bankAccountMap.remove(id);
 
     }
-    public static String population(){
+    public void population(){
         BankAccount bankAccount =DirectorAccount.builder()
                 .accountBalance(5000)
                 .accountStatus(AccountStatus.CREATED)
@@ -64,8 +64,7 @@ public class AccoutRepositoryImpl implements AccoutRepository {
                 .accountType(AccountType.SAVING)
                 .accountCurrency("MAD")
                 .build();
-        return bankAccount.toString();
-
+        save(bankAccount);
     }
 
 }
