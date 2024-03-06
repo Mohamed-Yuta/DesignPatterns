@@ -28,9 +28,14 @@ public class AccoutRepositoryImpl implements AccoutRepository {
     private long accoutsNumber = 0 ;
     @Override
     public BankAccount save(BankAccount bankAccount) {
-        Long accountId = ++accoutsNumber ;
+        Long accountId;
+        synchronized (this){
+            accountId = ++accoutsNumber ;
+        }
         bankAccount.setId(accountId);
-        bankAccountMap.put(accountId,bankAccount);
+        synchronized (this){
+            bankAccountMap.put(accountId,bankAccount);
+        }
         return bankAccount;
     }
 
@@ -71,11 +76,12 @@ public class AccoutRepositoryImpl implements AccoutRepository {
         BankAccount bankAccount =DirectorAccount.builder()
                 .accountBalance(5000)
                 .accountStatus(AccountStatus.CREATED)
-                .accountId(1L)
                 .accountType(AccountType.SAVING)
                 .accountCurrency("MAD")
                 .build();
         save(bankAccount);
+        System.out.println(Thread.currentThread().getName());
+        System.out.println(accoutsNumber);
     }
 
 }

@@ -2,12 +2,21 @@ package model;
 
 import model.AccountStatus;
 
-public class BankAccount {
+public class BankAccount implements Cloneable {
     private Long id ;
     private double balance ;
     private String currency ;
     private AccountType accountType ;
     private AccountStatus accountStatus;
+    private Customer customer ;
+
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
 
     public Long getId() {
         return id;
@@ -57,6 +66,12 @@ public class BankAccount {
                 ", currency='" + currency + '\'' +
                 ", accountType=" + accountType +
                 ", accountStatus=" + accountStatus +
+                ",customer="+customer +
                 '}';
+    }
+
+    @Override
+    public BankAccount clone() throws CloneNotSupportedException {
+        return (BankAccount) super.clone();
     }
 }
