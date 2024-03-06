@@ -72,6 +72,8 @@ public class BankAccount implements Cloneable {
 
     @Override
     public BankAccount clone() throws CloneNotSupportedException {
-        return (BankAccount) super.clone();
+        BankAccount bankAccount = (BankAccount) super.clone();
+        bankAccount.setCustomer(this.customer.clone());
+        return bankAccount;
     }
 }
