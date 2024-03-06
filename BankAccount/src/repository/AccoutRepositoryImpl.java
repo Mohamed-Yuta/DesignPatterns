@@ -14,6 +14,17 @@ import java.util.stream.Collectors;
 
 public class AccoutRepositoryImpl implements AccoutRepository {
     private Map<Long,BankAccount> bankAccountMap = new HashMap<>();
+    private static final AccoutRepositoryImpl accountRepository ;
+
+    static {
+        accountRepository= new AccoutRepositoryImpl();
+    }
+    private AccoutRepositoryImpl(){
+
+    }
+    public static AccoutRepositoryImpl getInstance(){
+        return accountRepository;
+    }
     private long accoutsNumber = 0 ;
     @Override
     public BankAccount save(BankAccount bankAccount) {

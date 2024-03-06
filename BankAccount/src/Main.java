@@ -9,7 +9,7 @@ import java.util.function.Predicate;
 public class Main {
     public static void main(String[] args) {
         JsonSerializer<BankAccount> jsonSerializer = new JsonSerializer<>();
-        AccoutRepositoryImpl accoutRepository = new AccoutRepositoryImpl();
+        AccoutRepositoryImpl accoutRepository = AccoutRepositoryImpl.getInstance();
         accoutRepository.population();
         List<BankAccount> bankAccountList = accoutRepository.searchAccounts(new Predicate<BankAccount>() {
             @Override
