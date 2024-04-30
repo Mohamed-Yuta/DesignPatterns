@@ -17,8 +17,7 @@ Composite Pattern: allows you to compose objects into tree structures to represe
 
 Decorator Pattern: attaches additional responsibilities to an object dynamically. It provides a flexible alternative to subclassing for extending functionality. With this pattern, you can add new features to objects without altering their structure. It involves creating a set of decorator classes that are used to wrap concrete components. Each decorator class adds its own behavior to the component.
 
-
-
+Proxy Pattern: creates a surrogate or placeholder for another object, allowing you to control access to it. It acts as an intermediary between the client and the real object, intercepting requests and providing additional functionality such as security checks, logging, or lazy initialization. This pattern enables you to add a layer of indirection to manage access to objects efficiently.
 
 
 
