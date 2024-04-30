@@ -11,6 +11,18 @@ Strategy Pattern: This pattern defines a family of algorithms, encapsulates each
 
 Observer Pattern: This pattern defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 
+Adapter Pattern: is a design pattern that allows incompatible interfaces to work together. It acts as a bridge between two incompatible interfaces by converting the interface of a class into another interface that a client expects. In other words, it allows objects with incompatible interfaces to collaborate.
+
+Composite Pattern: allows you to compose objects into tree structures to represent part-whole hierarchies. It lets clients treat individual objects and compositions of objects uniformly. This pattern is particularly useful when you need to work with objects in a hierarchical manner and you want to treat both individual objects and compositions of objects in a uniform way.
+
+Decorator Pattern: attaches additional responsibilities to an object dynamically. It provides a flexible alternative to subclassing for extending functionality. With this pattern, you can add new features to objects without altering their structure. It involves creating a set of decorator classes that are used to wrap concrete components. Each decorator class adds its own behavior to the component.
+
+
+
+
+
+
+
 # How to Use:
 
 
