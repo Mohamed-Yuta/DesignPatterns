@@ -6,5 +6,4 @@ public abstract class Boisson {
         return description;
     }
     public abstract double cout();
-
 }

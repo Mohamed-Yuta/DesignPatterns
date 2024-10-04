@@ -1,6 +1,6 @@
 package composants;
 
-public class Deca extends Boisson{
+public class Deca extends Boisson {
 
     public Deca(){
         description = "Deca"  ;
