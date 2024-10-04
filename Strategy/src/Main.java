@@ -2,14 +2,13 @@ public class Main {
     public static void main(String[] args) {
 
         Context context = new Context();
-        context.setiStrategy(new IStrategyImpl1());
-        context.appliquerStartegy();
+        context.setStrategy(new StrategyImpl1());
+        context.applyStartegy();
 
-        context.setiStrategy(new IStrategyImpl2());
-        context.appliquerStartegy();
+        context.setStrategy(new StrategyImpl2());
+        context.applyStartegy();
 
-        context.setiStrategy(new IStrategyImpl3());
-        context.appliquerStartegy();
-
+        context.setStrategy(new StrategyImpl3());
+        context.applyStartegy();
     }
 }
