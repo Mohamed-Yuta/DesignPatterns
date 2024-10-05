@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Adapter/Adapter.iml" filepath="$PROJECT_DIR$/Adapter/Adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BankAccount/BankAccount.iml" filepath="$PROJECT_DIR$/BankAccount/BankAccount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Composite/Composite.iml" filepath="$PROJECT_DIR$/Composite/Composite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Decorator/Decorator.iml" filepath="$PROJECT_DIR$/Decorator/Decorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DesignPatterns.iml" filepath="$PROJECT_DIR$/.idea/DesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Observer/Observer.iml" filepath="$PROJECT_DIR$/Observer/Observer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Proxy/Proxy.iml" filepath="$PROJECT_DIR$/Proxy/Proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strategy/Strategy.iml" filepath="$PROJECT_DIR$/Strategy/Strategy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StrategyExercice/StrategyExercice.iml" filepath="$PROJECT_DIR$/StrategyExercice/StrategyExercice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
     </modules>
   </component>
 </project>

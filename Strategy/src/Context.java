@@ -1,9 +1,12 @@
+
 public class Context {
-    private IStrategy iStrategy ;
-    public void appliquerStartegy(){
-        iStrategy.appliquer();
+
+    private IStrategy strategy;
+    public void applyStartegy(){
+        strategy.apply();
     }
-    public void setiStrategy(IStrategy strategy){
-        this.iStrategy=strategy ;
+
+    public void setStrategy(IStrategy strategy){
+        this.strategy =strategy ;
     }
 }

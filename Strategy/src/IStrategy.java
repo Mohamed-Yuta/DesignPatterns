@@ -1,3 +1,4 @@
+
 public interface IStrategy {
-    public void appliquer();
+    public void apply();
 }

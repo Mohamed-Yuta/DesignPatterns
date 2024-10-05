@@ -1,6 +1,6 @@
-public class IStrategyImpl1 implements IStrategy {
+public class StrategyImpl1 implements IStrategy {
     @Override
-    public void appliquer() {
+    public void apply() {
         System.out.println("J'applique la stratégie 1 ");
     }
 }
